@@ -1,3 +1,10 @@
+#clock
+import time
+while True:
+    from datetime import datetime
+    now = datetime.now()
+    print ("%s/%s/%s %s:%s:%s" % (now.month,now.day,now.year,now.hour,now.minute,now.second))
+    time.sleep(1)
 We have a [new website](radare.org/)!
 If you want to contribute, have a look at the [repository](https://github.com/radareorg/radare.org)!
 
